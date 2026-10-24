@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite the current research manuscript when using these research materials. This repository does not assert publication or conference acceptance."
+type: software
+title: "A Lightweight Interaction Decoder for Metabolite-Disease Ranking in Cold-Start Settings"
+authors:
+  - family-names: Xie
+    given-names: Wei
+    affiliation: "School of Mathematics and Computer Science, Northwest Minzu University, Lanzhou, China"
+  - family-names: Liu
+    given-names: Wenzhi
+    affiliation: "School of Mathematics and Computer Science, Northwest Minzu University, Lanzhou, China"
+version: "2026.10.24"
+date-released: 2026-10-24
+repository-code: "https://github.com/xielaoban147/sgc-mlp-mda"
+url: "https://github.com/xielaoban147/sgc-mlp-mda"
+abstract: "Code, derived data, fixed disease-ID and random-edge holdouts, saved evaluation evidence, decoder ablations and manuscript materials for lightweight metabolite-disease ranking with SGC-MLP."
+keywords:
+  - metabolite-disease association
+  - graph learning
+  - disease cold start
+  - reproducibility

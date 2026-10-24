@@ -1,0 +1,709 @@
+{
+  "all_manifest_sha256_match": true,
+  "file_count": 694,
+  "test_score_groups_recomputed": 70,
+  "new_ablation_summary_groups_verified": 8,
+  "maximum_absolute_metric_difference": 0.0,
+  "details": [
+    {
+      "split": "cold_disease_seed17",
+      "scores": "evidence/baselines/fits/cold_disease_seed17/sgc/config0/test_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "cold_disease_seed17",
+      "scores": "evidence/baselines/fits/cold_disease_seed17/fixed_budget/config1/test_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "cold_disease_seed17",
+      "scores": "evidence/baselines/fits/cold_disease_seed17/fixed_tuned/config3/test_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "cold_disease_seed2026",
+      "scores": "evidence/baselines/fits/cold_disease_seed2026/sgc/config1/test_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "cold_disease_seed2026",
+      "scores": "evidence/baselines/fits/cold_disease_seed2026/fixed_budget/config1/test_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "cold_disease_seed2026",
+      "scores": "evidence/baselines/fits/cold_disease_seed2026/fixed_tuned/config3/test_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "cold_disease_seed27182",
+      "scores": "evidence/baselines/fits/cold_disease_seed27182/sgc/config1/test_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "cold_disease_seed27182",
+      "scores": "evidence/baselines/fits/cold_disease_seed27182/fixed_budget/config0/test_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "cold_disease_seed27182",
+      "scores": "evidence/baselines/fits/cold_disease_seed27182/fixed_tuned/config2/test_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "cold_disease_seed31415",
+      "scores": "evidence/baselines/fits/cold_disease_seed31415/sgc/config0/test_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "cold_disease_seed31415",
+      "scores": "evidence/baselines/fits/cold_disease_seed31415/fixed_budget/config0/test_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "cold_disease_seed31415",
+      "scores": "evidence/baselines/fits/cold_disease_seed31415/fixed_tuned/config4/test_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "cold_disease_seed42",
+      "scores": "evidence/baselines/fits/cold_disease_seed42/sgc/config1/test_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "cold_disease_seed42",
+      "scores": "evidence/baselines/fits/cold_disease_seed42/fixed_budget/config1/test_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "cold_disease_seed42",
+      "scores": "evidence/baselines/fits/cold_disease_seed42/fixed_tuned/config5/test_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "random_edge_seed17",
+      "scores": "evidence/baselines/fits/random_edge_seed17/sgc/config0/test_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "random_edge_seed17",
+      "scores": "evidence/baselines/fits/random_edge_seed17/fixed_budget/config0/test_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "random_edge_seed17",
+      "scores": "evidence/baselines/fits/random_edge_seed17/fixed_tuned/config2/test_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "random_edge_seed2026",
+      "scores": "evidence/baselines/fits/random_edge_seed2026/sgc/config1/test_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "random_edge_seed2026",
+      "scores": "evidence/baselines/fits/random_edge_seed2026/fixed_budget/config0/test_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "random_edge_seed2026",
+      "scores": "evidence/baselines/fits/random_edge_seed2026/fixed_tuned/config4/test_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "random_edge_seed27182",
+      "scores": "evidence/baselines/fits/random_edge_seed27182/sgc/config0/test_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "random_edge_seed27182",
+      "scores": "evidence/baselines/fits/random_edge_seed27182/fixed_budget/config0/test_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "random_edge_seed27182",
+      "scores": "evidence/baselines/fits/random_edge_seed27182/fixed_tuned/config2/test_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "random_edge_seed31415",
+      "scores": "evidence/baselines/fits/random_edge_seed31415/sgc/config1/test_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "random_edge_seed31415",
+      "scores": "evidence/baselines/fits/random_edge_seed31415/fixed_budget/config0/test_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "random_edge_seed31415",
+      "scores": "evidence/baselines/fits/random_edge_seed31415/fixed_tuned/config5/test_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "random_edge_seed42",
+      "scores": "evidence/baselines/fits/random_edge_seed42/sgc/config1/test_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "random_edge_seed42",
+      "scores": "evidence/baselines/fits/random_edge_seed42/fixed_budget/config0/test_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "random_edge_seed42",
+      "scores": "evidence/baselines/fits/random_edge_seed42/fixed_tuned/config5/test_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "cold_disease_seed17",
+      "scores": "evidence/sgc_mlp/audit_predictions/cold_disease_seed17.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 2e-06
+    },
+    {
+      "split": "cold_disease_seed2026",
+      "scores": "evidence/sgc_mlp/audit_predictions/cold_disease_seed2026.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 2e-06
+    },
+    {
+      "split": "cold_disease_seed27182",
+      "scores": "evidence/sgc_mlp/audit_predictions/cold_disease_seed27182.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 2e-06
+    },
+    {
+      "split": "cold_disease_seed31415",
+      "scores": "evidence/sgc_mlp/audit_predictions/cold_disease_seed31415.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 2e-06
+    },
+    {
+      "split": "cold_disease_seed42",
+      "scores": "evidence/sgc_mlp/audit_predictions/cold_disease_seed42.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 2e-06
+    },
+    {
+      "split": "random_edge_seed17",
+      "scores": "evidence/sgc_mlp/audit_predictions/random_edge_seed17.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 2e-06
+    },
+    {
+      "split": "random_edge_seed2026",
+      "scores": "evidence/sgc_mlp/audit_predictions/random_edge_seed2026.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 2e-06
+    },
+    {
+      "split": "random_edge_seed27182",
+      "scores": "evidence/sgc_mlp/audit_predictions/random_edge_seed27182.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 2e-06
+    },
+    {
+      "split": "random_edge_seed31415",
+      "scores": "evidence/sgc_mlp/audit_predictions/random_edge_seed31415.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 2e-06
+    },
+    {
+      "split": "random_edge_seed42",
+      "scores": "evidence/sgc_mlp/audit_predictions/random_edge_seed42.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 2e-06
+    },
+    {
+      "split": "cold_disease_seed17",
+      "scores": "experiments/ctd_sgformer/reviewer_revision_20261023/test_once/cold_disease_seed17_endpoint_only_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "cold_disease_seed17",
+      "scores": "experiments/ctd_sgformer/reviewer_revision_20261023/test_once/cold_disease_seed17_endpoint_product_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "cold_disease_seed17",
+      "scores": "experiments/ctd_sgformer/reviewer_revision_20261023/test_once/cold_disease_seed17_endpoint_absdiff_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "cold_disease_seed2026",
+      "scores": "experiments/ctd_sgformer/reviewer_revision_20261023/test_once/cold_disease_seed2026_endpoint_only_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "cold_disease_seed2026",
+      "scores": "experiments/ctd_sgformer/reviewer_revision_20261023/test_once/cold_disease_seed2026_endpoint_product_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "cold_disease_seed2026",
+      "scores": "experiments/ctd_sgformer/reviewer_revision_20261023/test_once/cold_disease_seed2026_endpoint_absdiff_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "cold_disease_seed27182",
+      "scores": "experiments/ctd_sgformer/reviewer_revision_20261023/test_once/cold_disease_seed27182_endpoint_only_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "cold_disease_seed27182",
+      "scores": "experiments/ctd_sgformer/reviewer_revision_20261023/test_once/cold_disease_seed27182_endpoint_product_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "cold_disease_seed27182",
+      "scores": "experiments/ctd_sgformer/reviewer_revision_20261023/test_once/cold_disease_seed27182_endpoint_absdiff_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "cold_disease_seed31415",
+      "scores": "experiments/ctd_sgformer/reviewer_revision_20261023/test_once/cold_disease_seed31415_endpoint_only_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "cold_disease_seed31415",
+      "scores": "experiments/ctd_sgformer/reviewer_revision_20261023/test_once/cold_disease_seed31415_endpoint_product_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "cold_disease_seed31415",
+      "scores": "experiments/ctd_sgformer/reviewer_revision_20261023/test_once/cold_disease_seed31415_endpoint_absdiff_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "cold_disease_seed42",
+      "scores": "experiments/ctd_sgformer/reviewer_revision_20261023/test_once/cold_disease_seed42_endpoint_only_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "cold_disease_seed42",
+      "scores": "experiments/ctd_sgformer/reviewer_revision_20261023/test_once/cold_disease_seed42_endpoint_product_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "cold_disease_seed42",
+      "scores": "experiments/ctd_sgformer/reviewer_revision_20261023/test_once/cold_disease_seed42_endpoint_absdiff_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "random_edge_seed17",
+      "scores": "experiments/ctd_sgformer/reviewer_revision_20261023/test_once/random_edge_seed17_endpoint_only_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "random_edge_seed17",
+      "scores": "experiments/ctd_sgformer/reviewer_revision_20261023/test_once/random_edge_seed17_endpoint_product_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "random_edge_seed17",
+      "scores": "experiments/ctd_sgformer/reviewer_revision_20261023/test_once/random_edge_seed17_endpoint_absdiff_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "random_edge_seed2026",
+      "scores": "experiments/ctd_sgformer/reviewer_revision_20261023/test_once/random_edge_seed2026_endpoint_only_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "random_edge_seed2026",
+      "scores": "experiments/ctd_sgformer/reviewer_revision_20261023/test_once/random_edge_seed2026_endpoint_product_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "random_edge_seed2026",
+      "scores": "experiments/ctd_sgformer/reviewer_revision_20261023/test_once/random_edge_seed2026_endpoint_absdiff_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "random_edge_seed27182",
+      "scores": "experiments/ctd_sgformer/reviewer_revision_20261023/test_once/random_edge_seed27182_endpoint_only_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "random_edge_seed27182",
+      "scores": "experiments/ctd_sgformer/reviewer_revision_20261023/test_once/random_edge_seed27182_endpoint_product_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "random_edge_seed27182",
+      "scores": "experiments/ctd_sgformer/reviewer_revision_20261023/test_once/random_edge_seed27182_endpoint_absdiff_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "random_edge_seed31415",
+      "scores": "experiments/ctd_sgformer/reviewer_revision_20261023/test_once/random_edge_seed31415_endpoint_only_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "random_edge_seed31415",
+      "scores": "experiments/ctd_sgformer/reviewer_revision_20261023/test_once/random_edge_seed31415_endpoint_product_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "random_edge_seed31415",
+      "scores": "experiments/ctd_sgformer/reviewer_revision_20261023/test_once/random_edge_seed31415_endpoint_absdiff_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "random_edge_seed42",
+      "scores": "experiments/ctd_sgformer/reviewer_revision_20261023/test_once/random_edge_seed42_endpoint_only_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "random_edge_seed42",
+      "scores": "experiments/ctd_sgformer/reviewer_revision_20261023/test_once/random_edge_seed42_endpoint_product_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "split": "random_edge_seed42",
+      "scores": "experiments/ctd_sgformer/reviewer_revision_20261023/test_once/random_edge_seed42_endpoint_absdiff_predictions.npz",
+      "metric_differences": {
+        "macro_ap": 0.0,
+        "macro_recall20": 0.0,
+        "macro_auroc": 0.0
+      },
+      "tolerance": 1e-12
+    }
+  ]
+}

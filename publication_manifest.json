@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-24",
+  "repository": "https://github.com/xielaoban147/sgc-mlp-mda",
+  "artifact_sha256": {
+    "downloads/ICAICE2026_reproduction_material.zip": "34c1629f1be69f04fb2303b407db4bfca04f90c47247603224590d9202df8c32",
+    "downloads/ICAICE2026_LaTeX_source.zip": "fa79e80b1f8119cda223f876b920ee3e3ec329278a19b0432f526ca4cb41de4a",
+    "downloads/ICAICE2026_manuscript_draft.pdf": "55df9a587ed1086b82e64b9d35953084bcd3ddf8737640e4cac37d7eb50db868"
+  },
+  "public_reproduction_audit": {
+    "source_sha256": "cbec75ff6fe7e6422d0fdc7161b63850f977e8f053e81b25a9e907ca76392096",
+    "public_sha256": "34c1629f1be69f04fb2303b407db4bfca04f90c47247603224590d9202df8c32",
+    "removed_cache_count": 1,
+    "modified_existing_files": [
+      "manifest.json"
+    ],
+    "data_source_and_result_bytes_preserved": true
+  },
+  "reproduction_content_scan": {
+    "email": [],
+    "user_home_path": [],
+    "credential": []
+  },
+  "latex_content_scan": {
+    "email": [],
+    "user_home_path": [],
+    "credential": []
+  },
+  "source_file_count": 23,
+  "submission_originals_modified": false,
+  "distribution": "The three files under downloads/ are intended as GitHub Release assets; source/ is a browseable mirror, not a separate dataset distribution.",
+  "license": "No blanket third-party code or database license is granted. Retained upstream notices and source-database terms apply.",
+  "saved_score_verification": {
+    "all_manifest_sha256_match": true,
+    "file_count": 694,
+    "test_score_groups_recomputed": 70,
+    "new_ablation_summary_groups_verified": 8,
+    "maximum_absolute_metric_difference": 0.0
+  }
+}

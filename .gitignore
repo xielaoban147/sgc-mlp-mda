@@ -1,0 +1,35 @@
+# Local secrets and environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+credentials*
+*.pem
+*.key
+
+# Generated Python and experiment outputs
+__pycache__/
+*.py[cod]
+.pytest_cache/
+rerun/
+*.pt
+*.pth
+
+# Local typesetting outputs
+out/
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.run.xml
+*.synctex.gz
+
+# Editor/OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
